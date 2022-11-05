@@ -1,0 +1,24 @@
+#refactor {
+  position: fixed;
+  width: 400px;
+  height: 200px;
+  top: 36%;
+  left: 46%;
+  background-color: indianred;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  border: 1px solid #D9CA14;
+  transform: translate(-50%, -50%);
+}
+#refactor input {
+  width: 70%;
+}
+#refactor .cancel {
+  position: absolute;
+  left: 20px;
+  top: 2px;
+  border: 1px solid sandybrown;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=refactor.css.map */

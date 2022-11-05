@@ -1,0 +1,8 @@
+.App{
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: pink;
+}
+.loginBtn{
+    background-color: yellow;
+}

@@ -1,0 +1,33 @@
+#frontPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100vh;
+  width: 100%;
+  background-color: inherit;
+  background-image: url("/public/lohp_1302x955.png");
+}
+#frontPage .mid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: inherit;
+  padding-left: 70px;
+  background-color: inherit;
+  width: 33vw;
+  min-width: 300px;
+  max-width: 400px;
+}
+#frontPage .mid * {
+  margin: 20px 0;
+}
+#frontPage .mid .mainTitle {
+  font-size: 70px;
+  font-weight: 5;
+}
+#frontPage .mid #Btn {
+  border-radius: 20px;
+}
+/*# sourceMappingURL=frontPage.css.map */

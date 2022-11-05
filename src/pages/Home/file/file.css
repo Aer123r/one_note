@@ -1,0 +1,28 @@
+#file {
+  height: inherit;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 70vw;
+}
+#file #markdown,
+#file #textArea {
+  padding: 0 10px;
+  width: inherit;
+  height: inherit;
+  word-break: break-all;
+}
+#file #textArea {
+  outline: none;
+  padding-top: 7px;
+  line-height: 25px;
+  border-left: 2px solid white;
+}
+#file #textArea:empty::before {
+  content: attr(placeholder);
+  color: rgba(0, 0, 0, 0.3);
+}
+#file #textArea:focus::before {
+  content: none;
+}
+/*# sourceMappingURL=file.css.map */

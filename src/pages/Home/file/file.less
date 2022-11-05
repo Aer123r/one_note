@@ -1,0 +1,26 @@
+#file {
+  height: inherit;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 70vw;
+  #markdown, #textArea {
+    padding: 0 10px;
+    width: inherit;
+    height: inherit;
+    word-break: break-all;
+  }
+  #textArea {
+    outline: none;
+    padding-top: 7px;
+    line-height: 25px;
+    border-left: 2px solid white;
+    &:empty::before{
+      content: attr(placeholder);
+      color: rgba(0,0,0,.3);
+    }
+    &:focus::before{
+      content: none;
+    }
+  }
+}

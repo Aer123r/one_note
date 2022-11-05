@@ -1,0 +1,51 @@
+#Mask {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+#Mask .form {
+  position: relative;
+  width: 700px;
+  height: 600px;
+  background-color: white;
+  border-radius: 20px;
+  background-image: url("/public/Background-blurryGradient.svg");
+  background-size: auto;
+}
+#Mask .form .closeBtn {
+  position: absolute;
+  margin: 10px;
+  padding: 5px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-image: url("/public/icon/multiply@2x.png");
+  background-repeat: no-repeat;
+  background-size: 10px;
+  background-position: center;
+}
+#Mask .form .closeBtn:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  transform: rotateZ(180deg);
+  transition: all 1s;
+}
+#Mask .form input {
+  display: block;
+  width: 300px;
+}
+#Mask .form .formMid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+}
+#Mask .form .formMid * {
+  margin: 20px;
+  padding: 10px;
+}
+/*# sourceMappingURL=Mask.css.map */

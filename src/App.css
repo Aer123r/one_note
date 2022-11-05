@@ -1,0 +1,19 @@
+.App{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+@media (prefers-color-scheme: dark) {
+    .App {
+        background-color: black;
+        color: #fff;
+    }
+}
+/* 浅色模式 */
+@media (prefers-color-scheme: light) {
+    .App {
+        background-color: white;
+        color: #000;
+    }
+}
